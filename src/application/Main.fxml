@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ctrl.Controller">
+   <children>
+      <GridPane alignment="CENTER" gridLinesVisible="true" layoutX="37.0" layoutY="43.0" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #006F07;">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Circle fx:id="circle00" fill="LIME" onMouseClicked="#onCircle00Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle01" fill="LIME" onMouseClicked="#onCircle01Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle02" fill="LIME" onMouseClicked="#onCircle02Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle03" fill="LIME" onMouseClicked="#onCircle03Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle04" fill="LIME" onMouseClicked="#onCircle04Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle05" fill="LIME" onMouseClicked="#onCircle05Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle06" fill="LIME" onMouseClicked="#onCircle06Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle07" fill="LIME" onMouseClicked="#onCircle07Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle10" fill="LIME" onMouseClicked="#onCircle10Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle11" fill="LIME" onMouseClicked="#onCircle11Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle12" fill="LIME" onMouseClicked="#onCircle12Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle13" fill="LIME" onMouseClicked="#onCircle13Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle14" fill="LIME" onMouseClicked="#onCircle14Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle15" fill="LIME" onMouseClicked="#onCircle15Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle16" fill="LIME" onMouseClicked="#onCircle16Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle17" fill="LIME" onMouseClicked="#onCircle17Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle20" fill="LIME" onMouseClicked="#onCircle20Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle21" fill="LIME" onMouseClicked="#onCircle21Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle22" fill="LIME" onMouseClicked="#onCircle22Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle23" fill="LIME" onMouseClicked="#onCircle23Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle24" fill="LIME" onMouseClicked="#onCircle24Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle25" fill="LIME" onMouseClicked="#onCircle25Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle26" fill="LIME" onMouseClicked="#onCircle26Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle27" fill="LIME" onMouseClicked="#onCircle27Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle30" fill="LIME" onMouseClicked="#onCircle30Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle31" fill="LIME" onMouseClicked="#onCircle31Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle32" fill="LIME" onMouseClicked="#onCircle32Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle33" fill="LIME" onMouseClicked="#onCircle33Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle34" fill="LIME" onMouseClicked="#onCircle34Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle35" fill="LIME" onMouseClicked="#onCircle35Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle36" fill="LIME" onMouseClicked="#onCircle36Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle37" fill="LIME" onMouseClicked="#onCircle37Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle40" fill="LIME" onMouseClicked="#onCircle40Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle41" fill="LIME" onMouseClicked="#onCircle41Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle42" fill="LIME" onMouseClicked="#onCircle42Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle43" fill="LIME" onMouseClicked="#onCircle43Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle44" fill="LIME" onMouseClicked="#onCircle44Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle45" fill="LIME" onMouseClicked="#onCircle45Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle46" fill="LIME" onMouseClicked="#onCircle46Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle47" fill="LIME" onMouseClicked="#onCircle47Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle50" fill="LIME" onMouseClicked="#onCircle50Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle51" fill="LIME" onMouseClicked="#onCircle51Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle52" fill="LIME" onMouseClicked="#onCircle52Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle53" fill="LIME" onMouseClicked="#onCircle53Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle54" fill="LIME" onMouseClicked="#onCircle54Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle55" fill="LIME" onMouseClicked="#onCircle55Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle56" fill="LIME" onMouseClicked="#onCircle56Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle57" fill="LIME" onMouseClicked="#onCircle57Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle60" fill="LIME" onMouseClicked="#onCircle60Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle61" fill="LIME" onMouseClicked="#onCircle61Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle62" fill="LIME" onMouseClicked="#onCircle62Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle63" fill="LIME" onMouseClicked="#onCircle63Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle64" fill="LIME" onMouseClicked="#onCircle64Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle65" fill="LIME" onMouseClicked="#onCircle65Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle66" fill="LIME" onMouseClicked="#onCircle66Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle67" fill="LIME" onMouseClicked="#onCircle67Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle70" fill="LIME" onMouseClicked="#onCircle70Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle71" fill="LIME" onMouseClicked="#onCircle71Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle72" fill="LIME" onMouseClicked="#onCircle72Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle73" fill="LIME" onMouseClicked="#onCircle73Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle74" fill="LIME" onMouseClicked="#onCircle74Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle75" fill="LIME" onMouseClicked="#onCircle75Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle76" fill="LIME" onMouseClicked="#onCircle76Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+            <Circle fx:id="circle77" fill="LIME" onMouseClicked="#onCircle77Click" radius="15.0" stroke="TRANSPARENT" strokeWidth="0.0" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+      <Label fx:id="labelBlack" layoutX="388.0" layoutY="131.0" prefHeight="43.0" prefWidth="86.0" text="Black" textAlignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelWhite" layoutX="388.0" layoutY="184.0" prefHeight="43.0" prefWidth="86.0" text="White" textAlignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelBlackCount" layoutX="474.0" layoutY="131.0" prefHeight="43.0" prefWidth="86.0" text="00" textAlignment="RIGHT">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelWhiteCount" layoutX="474.0" layoutY="184.0" prefHeight="43.0" prefWidth="86.0" text="00" textAlignment="RIGHT">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="endButton" layoutX="436.0" layoutY="270.0" mnemonicParsing="false" onAction="#onEndButtonClick" prefHeight="30.0" prefWidth="75.0" text="END" visible="false" />
+      <Button fx:id="buttonStartBlack" layoutX="372.0" layoutY="274.0" mnemonicParsing="false" onAction="#onStartBlackClick" prefHeight="51.0" prefWidth="95.0" text="START BLACK">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonStartWhite" layoutX="481.0" layoutY="274.0" mnemonicParsing="false" onAction="#onStartWhiteClick" prefHeight="51.0" prefWidth="95.0" text="START WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="labelYourColor" layoutX="344.0" layoutY="69.0" prefHeight="51.0" prefWidth="167.0" text="Your Color : " visible="false">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelYourColorDisp" layoutX="511.0" layoutY="69.0" prefHeight="51.0" prefWidth="86.0" text="Black" visible="false">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelAiName" layoutX="14.0" layoutY="355.0" prefHeight="17.0" prefWidth="313.0" text="AI : " />
+      <Label fx:id="labelSubAiName" layoutX="14.0" layoutY="370.0" prefHeight="17.0" prefWidth="313.0" text="SubAI : " />
+      <Button fx:id="buttonAutoBattle" layoutX="455.0" layoutY="355.0" mnemonicParsing="false" onAction="#onButtonAutoBattleCilck" prefHeight="30.0" prefWidth="37.0" text="A" />
+      <Button fx:id="buttonAutoBattleReverse" layoutX="502.0" layoutY="355.0" mnemonicParsing="false" onAction="#onButtonAutoBattleReverseCilck" prefHeight="30.0" prefWidth="37.0" text="RA" />
+   </children>
+</AnchorPane>
